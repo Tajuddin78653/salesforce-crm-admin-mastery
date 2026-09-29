@@ -52,3 +52,13 @@ Understand Salesforce foundational data structure and build the custom data mode
 ## 📝 Practice Exercises & Quiz
 1. What happens if a Property with 3 Lease Agreements is deleted in a Master-Detail relationship?
 2. If you need to calculate the total rent across all active leases on a Property, what field type should you use?
+
+## 📝 Change Log & Progress Tracker
+- [x] **Step 1.1**: Created Custom Object Property__c with Auto-Number PK PROP-{0000} & Tab.
+- [x] **Step 1.2**: Configured Core Fields on Property__c:
+  - Property_Name__c (Text, Required)
+  - Property_Type__c (Picklist)
+  - Status__c (Picklist)
+  - Monthly_Rent__c (Currency)
+  - Owner_Account__c (Lookup to Account)
+- [-] **Step 1.3**: Creating Child Object Lease_Agreement__c with Master-Detail & Roll-up Summaries.
