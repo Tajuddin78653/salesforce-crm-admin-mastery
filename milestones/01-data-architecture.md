@@ -62,3 +62,5 @@ Understand Salesforce foundational data structure and build the custom data mode
   - Monthly_Rent__c (Currency)
   - Owner_Account__c (Lookup to Account)
 - [-] **Step 1.3**: Creating Child Object Lease_Agreement__c with Master-Detail & Roll-up Summaries.
+- [x] **Step 1.3**: Created Child Object Lease_Agreement__c with Master-Detail (Property__c), Lookup (Contact), Start/End Dates, Rent Amount, and Status.
+- [-] **Step 1.5**: Creating Roll-Up Summary Fields on Property__c.
